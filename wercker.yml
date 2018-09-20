@@ -3,8 +3,7 @@ build:
   steps:
     - npm-install
     - npm-test
-    - npm-build
-
+   
     - script:
         name: echo nodejs information
         code: |
