@@ -1,0 +1,19 @@
+box: node
+build:
+  steps:
+    - npm-install
+    - npm-init
+    - npm-test
+    - npm-build
+
+    - script:
+        name: echo nodejs information
+        code: |
+          echo "node version $(node -v) running"
+          echo "npm version $(npm -v) running"
+deploy:
+  steps:
+    - heroku-deploy:
+        key: $HEROKU_KEY
+        user: $HEROKU_USER
+        app-name: $HEROKU_APP_NAME
