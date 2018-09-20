@@ -10,16 +10,17 @@
     "init:web": "cd components && npm install",
     "init:rest": "cd store-api && npm install",
     "init": "npm run init:web && npm run init:rest",
-    "test:web": "cd components && npm run lint", 
-    "test:rest" : "cd store-api && npm run test", 
+    "test:web": "cd components && npm run lint",
+    "test:rest": "cd store-api && npm run test",
     "test": "npm run init&& npm run test:web && npm run test:rest",
-
-    "build:web": "cd components && npm run build", 
-    "build:rest" : "cd components/dist && rm -fr ../../store-api/client/* && cp -a * ../../store-api/client", 
+    "build:web": "cd components && npm run build",
+    "build:rest": "cd components/dist && rm -fr ../../store-api/client/* && cp -a * ../../store-api/client",
     "build": "npm run build:web && npm run build:rest",
-
     "start": "npm run build && cd store-api && npm start"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^10.0.1"
+  }
 }
