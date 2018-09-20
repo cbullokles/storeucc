@@ -1,7 +1,10 @@
 box: node
 build:
   steps:
-    - npm-install
+    - script:
+        name: npm run init
+   
+   - npm-install
     - npm-test
    
     - script:
