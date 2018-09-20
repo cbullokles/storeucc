@@ -1,0 +1,20 @@
+{
+  "name": "storeucc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init": "npm install",
+    "test:web": "cd components && npm run lint", 
+    "test:rest" : "cd store-api && npm run test", 
+    "test": "npm run test:web && npm run test:rest",
+
+    "build:web": "cd components && npm run build", 
+    "build:rest" : "cd components/dist && rm -fr ../../store-api/client/* && cp -a * ../../store-api/client", 
+    "build": "npm run build:web && npm run build:rest",
+
+    "start": "npm run build && cd store-api && npm start"
+  },
+  "author": "",
+  "license": "ISC"
+}
