@@ -2,10 +2,6 @@ box: node
 build:
   steps:
     - npm-install
-    - instalar:
-        name: echo nodejs information
-        code: |
-          npm run init
     - npm-test
    
     - script:

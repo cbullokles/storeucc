@@ -9,7 +9,7 @@
     "init": "npm run init:web && npm run init:rest",
     "test:web": "cd components && npm run lint", 
     "test:rest" : "cd store-api && npm run test", 
-    "test": "npm run test:web && npm run test:rest",
+    "test": "npm run init&& npm run test:web && npm run test:rest",
 
     "build:web": "cd components && npm run build", 
     "build:rest" : "cd components/dist && rm -fr ../../store-api/client/* && cp -a * ../../store-api/client", 
