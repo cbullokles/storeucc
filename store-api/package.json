@@ -18,13 +18,13 @@
     "loopback-boot": "^2.6.5",
     "loopback-component-explorer": "^6.0.0",
     "loopback-connector-mysql": "^2.4.1",
-    "loopback-connector-postgresql": "^2.9.0",
     "serve-favicon": "^2.0.1",
     "strong-error-handler": "^2.0.0"
   },
   "devDependencies": {
     "eslint": "^3.17.1",
     "eslint-config-loopback": "^8.0.0",
+    "loopback-connector-postgresql": "^3.4.0",
     "nsp": "^2.1.0"
   },
   "repository": {
