@@ -17,7 +17,7 @@
     "build:web": "cd components && npm run build",
     "build:rest": "cd components/dist && rm -fr ../../store-api/client/* && cp -a * ../../store-api/client",
     "build": "npm run build:web && npm run build:rest",
-    "start": "npm run build && cd store-api && npm start"
+    "start": "npm run build && cd store-api && npm run start"
   },
   "author": "",
   "license": "ISC",
