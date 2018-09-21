@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "pgstoreucc": {
+    "host": "ec2-54-235-146-184.compute-1.amazonaws.com",
+    "port": 5432,
+    "url": "",
+    "database": "d598ak201474an",
+    "password": "8c40dbe3db6deec944ead8a929c4b31c5165a1573ba1e349f255a4b263bdd203",
+    "name": "pgstoreucc",
+    "user": "alvvcngqqjnbaj",
+    "connector": "postgresql"
+  }
+}
