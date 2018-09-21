@@ -36,15 +36,15 @@
     "public": false
   },
   "product": {
-    "dataSource": "mysqlstore",
+    "dataSource": "db",
     "public": true
   },
   "Purchase": {
-    "dataSource": "mysqlstore",
+    "dataSource": "db",
     "public": true
   },
   "Picture": {
-    "dataSource": "mysqlstore",
+    "dataSource": "db",
     "public": true
   }
 }
