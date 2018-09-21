@@ -36,15 +36,15 @@
     "public": false
   },
   "product": {
-    "dataSource": "pgstoreucc",
+    "dataSource": "mysqlstore",
     "public": true
   },
   "Purchase": {
-    "dataSource": "pgstoreucc",
+    "dataSource": "mysqlstore",
     "public": true
   },
   "Picture": {
-    "dataSource": "pgstoreucc",
+    "dataSource": "mysqlstore",
     "public": true
   }
 }

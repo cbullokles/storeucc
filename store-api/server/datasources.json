@@ -12,5 +12,15 @@
     "name": "pgstoreucc",
     "user": "cristian",
     "connector": "postgresql"
+  },
+  "mysqlstore": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "storeucc",
+    "password": "fukuroo123",
+    "name": "mysqlstore",
+    "user": "root",
+    "connector": "mysql"
   }
 }
