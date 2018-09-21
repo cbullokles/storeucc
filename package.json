@@ -7,10 +7,10 @@
     "node": ">=4"
   },
   "scripts": {
-    "postinstall": "npm run init",
     "init:web": "cd components && npm install",
     "init:rest": "cd store-api && npm install",
     "init": "npm run init:web && npm run init:rest",
+    "postinstall": "npm run init",
     "test:web": "cd components && npm run lint",
     "test:rest": "cd store-api && npm run test",
     "test": "npm run init&& npm run test:web && npm run test:rest",
