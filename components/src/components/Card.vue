@@ -9,7 +9,8 @@ export default {
     }
   },
   props: {
-    product: Object
+    product: Object,
+    isFavorite: Boolean
   }
 }
 </script>

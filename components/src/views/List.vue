@@ -2,7 +2,8 @@
   <v-flex>
     <div v-for="product in productList" :key="product.id" :product="product">
       <component :is="type"
-                :product="product" 
+                :product="product"
+                :isFavorite=false
                 @save-favorite="favorite">
       </component>
     </div>

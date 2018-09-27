@@ -1,6 +1,6 @@
 <template>
   <v-flex xs12   ma-3 >
-  <v-card color="gray darken-2" class="black--text" height="80px" :to="'/details/'+product.id">
+  <v-card ref="productCard" color="gray darken-2" v-bind:class="{favorite: isFavorite}" class="black--text" height="80px" :to="'/details/'+product.id">
     <v-layout>
       <v-flex xs4>
         <v-card-media ma-3>
@@ -42,6 +42,9 @@ export default {
     max-width: 800px;
     max-height: 50px;
     margin-bottom: 10px;
+}
+.favorite {
+  background-color: lightgray;
 }
 
 /* On mouse-over, add a deeper shadow */

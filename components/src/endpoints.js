@@ -16,7 +16,7 @@ export const ENDPOINTS = {
     if( !environment[env] )
       throw 'Environment not found';
     
-      console.log(`CurrentEndpoint: ${environment[env].product}`)
+    console.log(`CurrentEndpoint: ${environment[env].product}`)
     return environment[env][service];
   }
 }

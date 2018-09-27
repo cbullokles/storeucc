@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Guia de Cadena",
+    "description": "Guia de Cadena Biker",
+    "category": "accesorio",
+    "price": 1200,
+    "stock": 6,
+    "id": 1
+  },
+  {
+    "name": "Filtro de Aire",
+    "description": "Napo de competicion",
+    "category": "accesorio",
+    "price": 450,
+    "stock": 6,
+    "id": 2
+  },
+  {
+    "name": "Cubre Cuadro",
+    "description": "Cubre cuadros marca Biker",
+    "category": "accesorios",
+    "price": 1200,
+    "stock": 4,
+    "id": 3
+  },
+  {
+    "name": "Puños ProTaper",
+    "description": "Punos anatomicos",
+    "category": "accesorio",
+    "price": 900,
+    "stock": 6,
+    "id": 4
+  },
+  {
+    "name": "Porta numero",
+    "description": "Porta numero procircuit",
+    "category": "accesorio",
+    "price": 2500,
+    "stock": 6,
+    "id": 5
+  },
+  {
+    "name": "Colin",
+    "description": "Colin Amarillo para adaptar",
+    "category": "accesorio",
+    "price": 1800,
+    "stock": 6,
+    "id": 6
+  },
+  {
+    "name": "Fuelle",
+    "description": "Fuelle",
+    "category": "accesorio",
+    "price": 1800,
+    "stock": 6,
+    "id": 7
+  },
+  {
+    "name": "Escape Belparts",
+    "description": "Escape Belparts ",
+    "category": "accesorio",
+    "price": 1500,
+    "stock": 6,
+    "id": 8
+  },
+  {
+    "name": "Puños ProTaper",
+    "description": "Punos anatomicos",
+    "category": "accesorio",
+    "price": 900,
+    "stock": 6,
+    "id": 9
+  },
+  {
+    "name": "Filtro de Aire",
+    "description": "Napo de competicion",
+    "category": "accesorio",
+    "price": 450,
+    "stock": 6,
+    "id": 10
+  },
+  {
+    "name": "Guia de Cadena",
+    "description": "Guia de Cadena Biker",
+    "category": "accesorio",
+    "price": 1200,
+    "stock": 6,
+    "id": 11
+  },
+  {
+    "name": "Porta numero",
+    "description": "Porta numero procircuit",
+    "category": "accesorio",
+    "price": 2500,
+    "stock": 6,
+    "id": 12
+  },
+  {
+    "name": "Colin",
+    "description": "Colin Amarillo para adaptar",
+    "category": "accesorio",
+    "price": 1800,
+    "stock": 6,
+    "id": 13
+  },
+  {
+    "name": "Fuelle",
+    "description": "Fuelle",
+    "category": "accesorio",
+    "price": 1800,
+    "stock": 6,
+    "id": 14
+  }
+]

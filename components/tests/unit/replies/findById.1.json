@@ -1,0 +1,31 @@
+{
+  "name": "Guia de Cadena",
+  "description": "Guia de Cadena Biker",
+  "category": "accesorio",
+  "price": 1200,
+  "stock": 6,
+  "id": 1,
+  "pictures": [
+    {
+      "name": "Rojo",
+      "url": "cubrecuadro_red.png",
+      "productId": 1,
+      "order": 2,
+      "id": 3
+    },
+    {
+      "name": "Blanco",
+      "url": "cubrecuadro.png",
+      "productId": 1,
+      "order": 1,
+      "id": 4
+    },
+    {
+      "name": "Black",
+      "url": "cubrecuadro_black.png",
+      "productId": 1,
+      "order": 1,
+      "id": 7
+    }
+  ]
+}
